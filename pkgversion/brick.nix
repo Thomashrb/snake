@@ -4,11 +4,10 @@
 }:
 mkDerivation {
   pname = "brick";
-  version = "0.17";
-  sha256 = "891cb3323b1de2ed27849399cf8ab1ed1467560813a6182edb53b3726e4b3b68";
+  version = "0.17.2";
+  sha256 = "ad154e23b4c38d045c3621de45b876e41eebdde7cae510b733930f0f59ae1c2a";
   isLibrary = true;
   isExecutable = true;
-  enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     base containers contravariant deepseq dlist microlens microlens-mtl
     microlens-th stm template-haskell text text-zipper transformers
